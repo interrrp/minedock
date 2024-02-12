@@ -1,4 +1,4 @@
-# Pave
+# Minedock
 
 An easy-to-use Minecraft server template with Docker, complete with a proxy configuration.
 
@@ -13,8 +13,8 @@ To run the server, you will need:
 After ensuring that you have all the prerequisites, run the following commands to clone the repository:
 
 ```sh
-git clone https://github.com/interrrp/pave
-cd pave
+git clone https://github.com/interrrp/minedock
+cd minedock
 ```
 
 You will need to create a `forwarding.secret` file in the `proxy` directory. The contents have to be something secure.
@@ -31,13 +31,13 @@ Your server is now up at port 25565. Good job! 😀👍
 
 ```sh
 # Check the logs of the server
-docker compose logs pave
+docker compose logs minedock
 
 # Check the logs of the server (follow)
-docker compose logs pave -f
+docker compose logs minedock -f
 
 # Check the logs of a specific server (lobby in this example)
-docker compose logs pave lobby
+docker compose logs minedock lobby
 ```
 
 ## License
