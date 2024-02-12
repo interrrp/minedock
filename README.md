@@ -32,3 +32,7 @@ docker compose logs pave -f
 # Check the logs of a specific server (lobby in this example)
 docker compose logs pave lobby
 ```
+
+## License
+
+This project is licensed under the [MIT license](./LICENSE).
