@@ -45,6 +45,12 @@ docker compose logs minedock lobby
 At the moment, the only Minedock-related default is the proxy MOTD.
 To change this, head over to `proxy/velocity.toml` and change the `motd` property.
 
+## Minedock's choices
+
+Minedock uses [Velocity](https://papermc.io/software/velocity) for the proxy
+and [Paper](https://papermc.io/software/paper) for the backend servers. Both
+of these are the standard for Minecraft servers as they are performant and reliable.
+
 ## License
 
 This project is licensed under the [MIT license](./LICENSE).
