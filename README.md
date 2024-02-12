@@ -10,11 +10,18 @@ To run the server, you will need:
 - [Docker](https://www.docker.com) 24.0 or later
 - [Docker Compose](https://docs.docker.com/compose) 3
 
-After ensuring that you have all the prerequisites, run the following commands:
+After ensuring that you have all the prerequisites, run the following commands to clone the repository:
 
 ```sh
 git clone https://github.com/interrrp/pave
 cd pave
+```
+
+You will need to create a `forwarding.secret` file in the `proxy` directory. The contents have to be something secure.
+
+After doing that, run the server:
+
+```sh
 docker compose up -d
 ```
 
