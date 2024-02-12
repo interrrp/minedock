@@ -1,0 +1,33 @@
+version: "3"
+services:
+  lobby:
+    image: itzg/minecraft-server
+    ports:
+      - 25565:25565
+    environment:
+      TYPE: paper
+      USE_AIKAR_FLAGS: true
+      EULA: true
+      ONLINE_MODE: false
+      MEMORY: 1G
+      DIFFICULTY: peaceful
+      MODE: adventure
+      FORCE_GAMEMODE: true
+      PVP: false
+      SPAWN_ANIMALS: false
+      SPAWN_MONSTERS: false
+      SPAWN_NPCS: false
+      VIEW_DISTANCE: 2
+      SIMULATION_DISTANCE: 2
+      LEVEL_TYPE: flat
+      GENERATOR_SETTINGS: |
+        {
+          "layers": [
+            {
+              "block": "minecraft:barrier",
+              "height": 64
+            }
+          ]
+        }
+    volumes:
+      - ./world:/data/world
