@@ -40,6 +40,11 @@ docker compose logs minedock -f
 docker compose logs minedock lobby
 ```
 
+## Changing defaults
+
+At the moment, the only Minedock-related default is the proxy MOTD.
+To change this, head over to `proxy/velocity.toml` and change the `motd` property.
+
 ## License
 
 This project is licensed under the [MIT license](./LICENSE).
