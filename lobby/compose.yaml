@@ -27,5 +27,7 @@ services:
             }
           ]
         }
+      RCON_CMDS_STARTUP: |-
+        gamerule doDaylightCycle false
     volumes:
       - ./world:/data/world
