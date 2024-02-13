@@ -31,3 +31,4 @@ services:
         gamerule doDaylightCycle false
     volumes:
       - ./world:/data/world
+      - ./plugins:/plugins

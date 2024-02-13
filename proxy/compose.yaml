@@ -10,5 +10,6 @@ services:
     volumes:
       - ./velocity.toml:/server/velocity.toml
       - ./forwarding.secret:/server/forwarding.secret
+      - ./plugins:/server/plugins
     depends_on:
       - lobby
