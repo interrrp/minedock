@@ -37,7 +37,7 @@ docker compose logs minedock
 docker compose logs minedock -f
 
 # Check the logs of a specific server (lobby in this example)
-docker compose logs minedock lobby
+docker compose logs lobby
 ```
 
 ## Changing defaults
