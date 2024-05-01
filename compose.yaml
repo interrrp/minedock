@@ -1,4 +1,3 @@
-version: "3"
 include:
   - proxy/compose.yaml
   - lobby/compose.yaml
